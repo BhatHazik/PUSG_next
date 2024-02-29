@@ -1,0 +1,14 @@
+.nav{
+    background-color: red;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+}
+.leftNav{
+    background-color:blue ;
+    width: 20vw;
+}
+.rightNav{
+    background-color: aquamarine;
+    width: 50vw;
+}
