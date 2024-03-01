@@ -1,4 +1,11 @@
+
+@font-face {
+    font-family: PUSG-FONT;
+    src: url(../app/Assets/Teko-VariableFont_wght.ttf);
+}
+
 body{
     background-color: black;
     color: white;
+    font-family: PUSG-FONT;
 }

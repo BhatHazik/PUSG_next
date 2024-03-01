@@ -1,0 +1,25 @@
+.mainWrapperDiv{
+    height: 90vh;
+}
+.page1{
+    background-color: blue;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+.page1ContentDiv{
+    background-color: red;
+    height: 75vh;
+    width: 70%;
+    display: flex;
+}
+.page1Left{
+    background-color: brown;
+    height: 100%;
+    width: 60%;
+}
+.page1Right{
+    background-color: aqua;
+    height: 100%;
+    width: 40%;
+}

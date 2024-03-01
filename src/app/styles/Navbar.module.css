@@ -1,14 +1,32 @@
 .nav{
-    background-color: red;
+    /* background-color: red; */
     height: 20vh;
     display: flex;
     justify-content: space-between;
+    /* border-bottom: solid 1px white; */
 }
 .leftNav{
-    background-color:blue ;
+    /* background-color:blue ; */
     width: 20vw;
+    padding-left: 1vw;
 }
 .rightNav{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     width: 50vw;
+    display: flex;
+    justify-content: flex-end;
+    padding: 2vw;
+    gap: 3vw;
+}
+.logo{
+    height: 13vw;
+    width: 9.5vw;
+} 
+.rightNav a{
+    text-decoration: none;
+    color: white;
+
+}
+.rightNav h4{
+    font-size: 1.3vw;
 }
