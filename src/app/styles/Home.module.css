@@ -2,24 +2,98 @@
     height: 90vh;
 }
 .page1{
-    background-color: blue;
+    /* background-color: blue; */
     height: 80vh;
     display: flex;
     justify-content: center;
 }
 .page1ContentDiv{
-    background-color: red;
+    /* background-color: red; */
     height: 75vh;
     width: 70%;
     display: flex;
+    justify-content: flex-end;
+}
+.page1LeftWrapper{
+    width: 50%;
+    height: 100%;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+
 }
 .page1Left{
-    background-color: brown;
+    
+    line-height: 6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5vw;
+}
+.page1Left2{
+    /* background-color: burlywood; */
+    height: 20vh;
+}
+.page1Left h1{
+    font-size: 8vw;
+    margin: 0;
+}
+.page1Left h2{
+    font-size: 6vw;
+    margin: 0;
+}
+.page1Left span{
+    color: #D40D0D;
+    display: flex;
+    align-items: center;
+    
+}
+.page1Left span img{
+    height: 3.5vw;
+    width: 2vw;
+    margin-bottom: 1vw;
+    margin-right: 1vw;
+}
+.fillpedArrow{
+    transform: scaleX(-1);
+    margin-left: 1vw;
+}
+.playerHeading{
+    padding-left: 9vw;
+}
+.downloadButtons{
     height: 100%;
-    width: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.androidDownloadButton{
+    height: 70%;
+    width: 45%;
+    background-color: transparent;
+    border-radius: 1.5vw ;
+    /* border: 0.4vw solid white; */
+    box-shadow: inset 0 0 0 0.35vw #fff;
+}
+.webLoginButton{
+    height: 70%;
+    width: 45%;
+    background-color: #FFC609;
+    border-radius: 1.5vw ;
 }
 .page1Right{
-    background-color: aqua;
+    /* background-color: aqua; */
     height: 100%;
     width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page1Right img{
+    height: 35vw;
+    width: 24vw;
 }
