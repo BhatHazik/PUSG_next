@@ -17,6 +17,7 @@
     width: 2.7vw;
     margin-right: 0.5vw;
 }
+/* MAIN CONTENT OF PAGE1 */
 .page1ContentDiv{
     /* background-color: red; */
     height: 75vh;
@@ -25,6 +26,7 @@
     justify-content: flex-end;
     margin-left: 15vw;
 }
+/* PAGE1 LEFT CONTENT */
 .page1LeftWrapper{
     width: 50%;
     height: 100%;
@@ -141,6 +143,7 @@
     margin: 0;
     font-size: 2vw;
 }
+/* CONTENT OF PAGE1 RIGHT */
 .page1Right{
     /* background-color: aqua; */
     height: 100%;
@@ -155,12 +158,14 @@
 }
 /* styling of page2 */
 .page2{
-    height: 90vh;
+    height: 100vh;
     /* background-color: rgb(74, 186, 22); */
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* justify-content: space-between; */
 }
+/* CONTENT OF PAGE2 SEC1 */
 .circlesHolder{
     height: 40%;
     width: 80%;
@@ -199,7 +204,6 @@
     height: 2vw;
     width: 2vw;
     margin: 0 0 0.5vw 0;
-
 }
 .page2Image2{
     height: 6.5vw;
@@ -217,4 +221,67 @@
 .page2Image5{
     height: 6.5vw;
     width: 6.5vw;
+}
+/* CONTENT OF PAGE2 SEC2 */
+.featuresHolder{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #D40D0D; */
+    height: 80%;
+}
+.featuresHolder span{
+    display: flex;
+    align-items: center;
+}
+.featuresHolder h1{
+    font-size: 4vw;
+}
+.featuresHolder span img{
+    height: 3.5vw;
+    width: 2vw;
+    margin-bottom: 1vw;
+    margin-right: 1vw;
+}
+.featuresIcons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+    width: 60%;
+}
+.featuresIcons div{
+    height: 20vw;
+    background-color: transparent;
+    width: 21%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: #D40D0D solid 0.30vw;
+    border-radius: 2vw;
+    line-height: 1.5vw;
+}
+.featuresIcons h3{
+    font-size: 1.7vw;
+    margin: 0;
+}
+.page2Sec2Image1{
+    height: 14vw;
+    width: 12.5vw;
+    margin-right: 6vw;
+    margin-bottom: 1vw;
+}
+.page2Sec2Image2{
+    height: 13vw;
+    width: 10.5vw;
+    margin-left: 4.5vw;
+    margin-bottom: 0.8vw;
+    margin-top: 1vw;
+}
+.page2Sec2Image3{
+    height: 13vw;
+    width: 15vw;
+    margin-bottom: 1vw;
 }

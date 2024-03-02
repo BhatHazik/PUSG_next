@@ -12,6 +12,9 @@ import iso from "./Assets/img5.png"
 import star from "./Assets/img4.png"
 import joistick from "./Assets/img11.png"
 import gstCoin from "./Assets/img20.png"
+import mobile from "./Assets/img18.png"
+import customerSupportIcon from "./Assets/img16.png"
+import leaderBoardIcon from "./Assets/img2.png"
 export default function Home() {
   return (
     <div className={styles.mainWrapperDiv}>
@@ -68,8 +71,14 @@ export default function Home() {
           <span><div><Image src={joistick} className={styles.page2Image4}/></div><h3>100%</h3><h3>Gamer Friendly</h3></span>
           <span><div><Image src={gstCoin} className={styles.page2Image5}/></div><h3>100%</h3><h3>GST and TDS</h3><h3>Refund</h3></span>
         </div>
-        <div className={styles.FeaturesHolder}>
-          
+        <div className={styles.featuresHolder}>
+          <span><Image src={arrow}/><h1>FEATURES</h1><Image src={arrow} className={styles.fillpedArrow}/></span>
+          <div className={styles.featuresIcons}>
+            <div><Image src={mobile} className={styles.page2Sec2Image1}/><h3>INSTANT</h3><h3>WITHDRAWLS</h3></div>
+            <div><Image src={customerSupportIcon} className={styles.page2Sec2Image2}/><h3>24/7</h3><h3>CUSTOMER</h3><h3>SUPPORT</h3></div>
+            <div><Image src={leaderBoardIcon} className={styles.page2Sec2Image3}/><h3>MONTHLY</h3><h3>ESPORTS KINGS</h3><h3>LEADERBOARD</h3></div>
+          </div>
+        
         </div>
       </div>
       
