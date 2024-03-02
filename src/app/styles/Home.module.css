@@ -1,7 +1,7 @@
 .mainWrapperDiv{
-    height: 90vh;
     width: 100%;
 }
+/* styling of page1 */
 .page1{
     /* background-color: blue; */
     height: 80vh;
@@ -15,6 +15,7 @@
     margin-top: 10vw;
     height: 12vw;
     width: 2.7vw;
+    margin-right: 0.5vw;
 }
 .page1ContentDiv{
     /* background-color: red; */
@@ -31,11 +32,8 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-
-
 }
 .page1Left{
-    
     line-height: 6vw;
     display: flex;
     flex-direction: column;
@@ -58,7 +56,6 @@
     color: #D40D0D;
     display: flex;
     align-items: center;
-    
 }
 .page1Left span img{
     height: 3.5vw;
@@ -79,7 +76,6 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
 }
 .androidDownloadButton{
     height: 70%;
@@ -97,7 +93,6 @@
 .androidDownloadButton img{
     height: 60%;
     width: 20%;
-
 }
 .androidDownloadButton div{
     height: 100%;
@@ -129,7 +124,6 @@
 .webLoginButton img{
     height: 50%;
     width: 20%;
-
 }
 .webLoginButton div{
     height: 100%;
@@ -158,4 +152,69 @@
 .page1Right img{
     height: 35vw;
     width: 24vw;
+}
+/* styling of page2 */
+.page2{
+    height: 90vh;
+    /* background-color: rgb(74, 186, 22); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.circlesHolder{
+    height: 40%;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: aquamarine; */
+    align-items: center;
+}
+.circlesHolder span{
+    height: 80%;
+    width: 18%;
+    /* background-color: #D40D0D;
+    border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.5vw;
+}
+.circlesHolder span div{
+    background-color: white;
+    height: 60%;
+    width: 60%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 2.2vw;
+    margin-bottom: 1.5vw;
+}
+.circlesHolder span h3{
+    font-size: 1.8vw;
+    margin: 0;
+}
+.page2Image1{
+    height: 2vw;
+    width: 2vw;
+    margin: 0 0 0.5vw 0;
+
+}
+.page2Image2{
+    height: 6.5vw;
+    width: 6.5vw;
+}
+.page2Image3{
+    height: 6.3vw;
+    width: 6.3vw;
+}
+.page2Image4{
+    height: 6.5vw;
+    width: 6.5vw;
+    margin-top: 1.9vw;
+}
+.page2Image5{
+    height: 6.5vw;
+    width: 6.5vw;
 }
